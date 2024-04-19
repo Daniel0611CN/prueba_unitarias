@@ -72,7 +72,7 @@ public class Connect4TDD {
         }
     }
 
-    private void switchPlayer() {
+    void switchPlayer() {
         if (RED.equals(currentPlayer))
             currentPlayer = GREEN;
         else currentPlayer = RED;
